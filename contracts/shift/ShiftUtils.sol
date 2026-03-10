@@ -298,7 +298,7 @@ library ShiftUtils {
         // since the action of withdrawing and depositing should not result in
         // a net change of virtual inventory
         // shift.srcChainId should be used for the srcChainId here so that GM tokens
-        // would go to the appropriate balance eitehr the user's wallet balance or multichain balance
+        // would go to the appropriate balance either the user's wallet balance or multichain balance
         cache.executeDepositParams = IExecuteDepositUtils.ExecuteDepositParams(
             params.dataStore,
             params.eventEmitter,
